@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[spanish,12pt,a4paper,twoside,openany]{book}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[left=1.00in, right=1.00in, top=1.00in, bottom=1.00in]{geometry}
+\usepackage{graphicx}
+\graphicspath{{img/}}  % Incluir la ruta de la carpeta de imagenes
+\usepackage{graphics} %Incluir imagenes pdf
+\usepackage{float}
+\usepackage{caption}
+\usepackage{adjustbox}  % Rotar imagenes
+\usepackage{subcaption}  %Ajustar el ancho caption
+%INCLUIR PDF
+\usepackage{pdfpages}  %incluir pdf
+\usepackage{pdflscape} %Rotar una pagina determinada
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\setlength{\jot}{1.5ex}
+\setlength{\abovedisplayskip}{1.5ex}
+\setlength{\belowdisplayskip}{1.5ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{longtable} 
+\usepackage{lscape}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,mexico]{babel}
+%%%%%%%%%%%%%%%%%%%%%%%%%% Change font %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+%\usepackage{helvet}  % Paquete para cambiar la fuente a Helvetica
+\renewcommand{\familydefault}{\sfdefault} % Configurar la familia de fuentes como sans serif (Helvetica)
+\usepackage{setspace}
+%\singlespacing  % Esaciado simple
+%\onehalfspacing % Espaciado 1.5
+\doublespacing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb}
+\usepackage{appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%% Color define %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xcolor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Referencia Bibliográfica %%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{csquotes}
+%\DeclareUnicodeCharacter{0301}{\'{e}} 
+\usepackage[style=iso-authoryear]{biblatex}
+\addbibresource{bibliography/biblatex-iso690-examples.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Creative Commnons %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[
+type={CC},
+modifier={by-nc-nd},
+version={4.0},
+]{doclicense}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Color links %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor=orange,
+	linkcolor=red, %Cambiar al color de preferencia
+	filecolor=magenta,      
+	urlcolor=cyan,
+	pdftitle={Overleaf Example},
+	pdfpagemode=FullScreen,
+}
+\urlstyle{same}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{showframe}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% Chapter Configuration %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\titleformat{\chapter}[block]
+{\normalfont\bfseries\Large}{\thechapter.}{0.5em}{\Large}
+
+\titleformat{\section}
+{\normalfont\bfseries\large}{\thesection}{0.5em}{\large}
+
+\titleformat{\subsection}
+{\normalfont\bfseries\large}{\thesubsection}{0.5em}{\large}
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+\titlespacing*{\chapter}{0pt}{-30pt}{12pt}
+\setlength{\parskip}{0mm}
+
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Configuration Table of contents %%%%%%%%%%%%%%%%%%
+\usepackage{tocloft}
+\usepackage{titletoc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Encabezados %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE,LO]{\leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Acronym %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[acronymlists={label-list}]{glossaries}
+\newacronym{html}{HTML}{Hypertext Markup Language}
+\newacronym{css}{CSS}{Hojas de Estilo en Cascada}
+\newacronym{js}{JS}{JavaScript}
+\newacronym{pip}{PIP}{Proyectos de inversión pública}
+\newacronym{ong}{ONG}{Organismo no gubernamental}
+\newacronym{mdt}{MDT}{Municipalidad Distrital de Tamburco}
+\newacronym{uep}{UEP}{Unidad de Estudios y Proyectos}
+\newacronym{sgodur}{SGODUR}{Sub-Gerencia de Obras Desarrollo Urbano y Rural}
+\newacronym{uoem}{UOEM}{Unidad de Obras y Equipos Mecánicos}
+\newacronym{uslo}{USLO}{Unidad de Supervisión y Liquidación de Obras}
+\newacronym{ucdur}{UCDUR}{Unidad de Catastro Desarrollo Urbano y Rural}
+\newacronym{utc}{UTC}{Unidad de Transporte y Circulación}
+\newacronym{ioarr}{IOARR}{Inversiones de Optimización, Ampliación Marginal, de Rehabilitación y Reposición}
+\makeglossaries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{MANTENIMIENTO DE PISTAS EN LA AV. TAMBURCO-ABANCAY-APURÍMAC}
+\author{Juan Benito Quintana Arone}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{showframe}
+
+\begin{document}
+%\maketitle
+\newcommand{\mytitulo}{MANTENIMIENTO DE PISTAS EN LA AV. TAMBURCO-ABANCAY-APURÍMAC}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+\input{lib/0.0.Introduction/0.0.carat.tex}
+\input{lib/0.0.Introduction/0.1.apr_jur.tex}
+\input{lib/0.0.Introduction/0.2.crea_comn.tex}
+\input{lib/0.0.Introduction/0.3.ded.tex}
+\input{lib/0.0.Introduction/0.4.acknowledgment.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
+\newpage
+\printglossary[type=\acronymtype, title={Siglas y Acrónimos}]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+\input{lib/0.0.Introduction/0.6.resum.tex}
+\input{lib/1.0.Chapter1/1.0.Chap1.tex}
+\input{lib/2.0.Chapter2/2.0.Chap2.tex}
+\input{lib/3.0.Chapter3/3.0.Chap3.tex}
+\input{lib/4.0.Chapter4/4.0.Chapt4.tex}
+\input{lib/5.0.Chapter5/5.0.Chap5.tex}
+\input{lib/6.0.Chapter6/6.0.Chap6.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\appendix
+\input{lib/7.0.Chapter7/Chap7.tex}
+\printbibliography[title=BIBLIOGRAFÍA]
+
+\end{document}

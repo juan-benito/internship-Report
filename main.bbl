@@ -1,0 +1,218 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{CongresoRepublica2003}{standard}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d494a39f2ce33062f246de215a5690b}{%
+           family={{Congreso de la República}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Poder Legislativo}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \list{organization}{1}{%
+        {República del Perú}%
+      }
+      \strng{namehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{fullhash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{bibnamehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{authorbibnamehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{authornamehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{authorfullhash}{2d494a39f2ce33062f246de215a5690b}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{month}{5}
+      \field{number}{27972}
+      \field{title}{{Ley Orgánica de Municipalidades}}
+      \field{year}{2003}
+      \verb{urlraw}
+      \verb https://www.gob.pe/institucion/mef/normas-legales/229447-27972
+      \endverb
+      \verb{url}
+      \verb https://www.gob.pe/institucion/mef/normas-legales/229447-27972
+      \endverb
+    \endentry
+    \entry{CongresoRepublica2022}{standard}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d494a39f2ce33062f246de215a5690b}{%
+           family={{Congreso de la República}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Poder Legislativo}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \list{location}{1}{%
+        {Jirón Junín 670, Lima 15001}%
+      }
+      \list{organization}{1}{%
+        {República del Perú}%
+      }
+      \strng{namehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{fullhash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{bibnamehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{authorbibnamehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{authornamehash}{2d494a39f2ce33062f246de215a5690b}
+      \strng{authorfullhash}{2d494a39f2ce33062f246de215a5690b}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{month}{12}
+      \field{number}{31638}
+      \field{title}{{Ley de Presupuesto del Sector Público para el año Fiscal 2023}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://busquedas.elperuano.pe/dispositivo/NL/2132248-1
+      \endverb
+      \verb{url}
+      \verb https://busquedas.elperuano.pe/dispositivo/NL/2132248-1
+      \endverb
+    \endentry
+    \entry{MTC2013}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c7a37b23d9be04b44e299a1d59511be9}{%
+           family={{{M}inisterio de {T}ransportes y {C}omunicaciones}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jr. Zorritos n.° 1203 Lima - Lima - Lima - Perú}%
+      }
+      \list{organization}{1}{%
+        {{R}epública del {P}erú}%
+      }
+      \strng{namehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{fullhash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{bibnamehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{authorbibnamehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{authornamehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{authorfullhash}{c7a37b23d9be04b44e299a1d59511be9}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{I}
+      \field{month}{6}
+      \field{title}{{Manual de Carreteras :Especificaciones Técnicas Generales para la Construcción}}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://portal.mtc.gob.pe/transportes/caminos/normas_carreteras/documentos/manuales/MANUALES DE CARRETERAS 2019/MC-01-13 Especificaciones Tecnicas Generales para Construcción - EG-2013 - (Versión Revisada - JULIO 2013).pdf
+      \endverb
+      \verb{url}
+      \verb https://portal.mtc.gob.pe/transportes/caminos/normas_carreteras/documentos/manuales/MANUALES%20DE%20CARRETERAS%202019/MC-01-13%20Especificaciones%20Tecnicas%20Generales%20para%20Construcci%C3%B3n%20-%20EG-2013%20-%20(Versi%C3%B3n%20Revisada%20-%20JULIO%202013).pdf
+      \endverb
+    \endentry
+    \entry{MTC2018}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c7a37b23d9be04b44e299a1d59511be9}{%
+           family={{Ministerio de Transportes y Comunicaciones}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jirón Zorritos 1203, Lima 15404}%
+      }
+      \strng{namehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{fullhash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{bibnamehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{authorbibnamehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{authornamehash}{c7a37b23d9be04b44e299a1d59511be9}
+      \strng{authorfullhash}{c7a37b23d9be04b44e299a1d59511be9}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{Manual de Carreteras:Diseño Geometrico}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://portal.mtc.gob.pe/transportes/caminos/normas_carreteras/manuales.html
+      \endverb
+      \verb{url}
+      \verb https://portal.mtc.gob.pe/transportes/caminos/normas_carreteras/manuales.html
+      \endverb
+    \endentry
+    \entry{MVCS2010}{standard}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0c8fcf396a2ef825c1cb13c4625eb99}{%
+           family={{Ministerio de Vivienda Construcción y Saneamiento}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Poder Ejecutivo}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \list{location}{1}{%
+        {Av. República de Panamá 3650 Lima - Lima - San Isidro - Perú}%
+      }
+      \list{organization}{1}{%
+        {{R}epública del {P}erú}%
+      }
+      \strng{namehash}{d0c8fcf396a2ef825c1cb13c4625eb99}
+      \strng{fullhash}{d0c8fcf396a2ef825c1cb13c4625eb99}
+      \strng{bibnamehash}{d0c8fcf396a2ef825c1cb13c4625eb99}
+      \strng{authorbibnamehash}{d0c8fcf396a2ef825c1cb13c4625eb99}
+      \strng{authornamehash}{d0c8fcf396a2ef825c1cb13c4625eb99}
+      \strng{authorfullhash}{d0c8fcf396a2ef825c1cb13c4625eb99}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{month}{5}
+      \field{number}{073}
+      \field{title}{{Metrados para Obras de Edificación y Habilitaciones Urbanas}}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://www3.vivienda.gob.pe/dnc/archivos/Estudios_Normalizacion/Normalizacion/normas/norma_metrados.pdf
+      \endverb
+      \verb{url}
+      \verb https://www3.vivienda.gob.pe/dnc/archivos/Estudios_Normalizacion/Normalizacion/normas/norma_metrados.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

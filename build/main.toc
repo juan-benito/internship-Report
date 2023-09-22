@@ -1,0 +1,48 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {I}DATOS GENERALES DEL ALUMNO}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {II}DATOS GENERALES DE LA ENTIDAD}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Nombre:}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Razón social:}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Actividad específica:}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Dirección:}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Nombre del Representante Legal:}{4}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Nombre del Jefe Inmediato:}{5}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Teléfonos:}{5}{section.2.7}%
+\contentsline {chapter}{\numberline {III}PROCESOS DESARROLLADOS DURANTE LA PRÁCTICA}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Objetivos}{7}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Objetivos generales}{7}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Objetivos específicos}{7}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Descripción del proyecto}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Nombre del proyecto}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Estado situacional de la infraestructura}{9}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Objetivos generales}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Ubicación geográfica}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Justificación del proyecto}{12}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Presupuesto}{13}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Fuente de financiamiento}{14}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Plazo de ejecución}{14}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Modalidad de ejecución}{15}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Detalle de las actividades realizadas en este proyecto}{15}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Otras actividades realizadas}{18}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Trabajo de campo}{18}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}Trabajo en gabinete}{20}{subsection.3.11.2}%
+\contentsline {subsection}{\numberline {3.11.3}Panel fotográfico de otras actividades realizadas}{24}{subsection.3.11.3}%
+\contentsline {chapter}{\numberline {IV}APRECIACIÓN GENERAL}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Entidad}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Unidad de estudios y proyectos}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Entorno laboral}{32}{section.4.3}%
+\contentsline {chapter}{\numberline {V}CONCLUSIONES}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {VI}RECOMENDACIONES}{35}{chapter.6}%
+\contentsline {chapter}{Apéndice A:Planos}{37}{appendix*.27}%
+\contentsline {chapter}{Apéndice B:Mapas}{40}{appendix*.29}%
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsfinish 
